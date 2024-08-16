@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="background_image_desc">Friend\n</string>
+    <string-array name="roles_array">
+        <item>List of Friends</item>
+        <item>Alice (+1 123 456 7890)</item>
+        <item>Bob (+1 234 567 8901)</item>
+        <item>Charlie (+1 345 678 9012)</item>
+        <item>David (+1 456 789 0123)</item>
+        <item>Eve (+1 567 890 1234)</item>
+        <item>Frank (+1 678 901 2345)</item>
+    </string-array>
+        <string name="menu_android">Android</string>
+        <string name="menu_profile">Profile</string>
+        <string name="menu_download">Download</string>
+        <string name="menu_setting">Setting</string>
+        <string name="menu_exit">Exit</string>
+        <string name="menu_icon_title">More</string>
+    <string name="action_settings" />
+    <string name="action_profile" />
+</resources>

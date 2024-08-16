@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_more_vert"
+        android:title="@string/menu_icon_title">
+        <menu>
+            <item
+                android:id="@+id/android"
+                android:title="@string/menu_android"
+                android:icon="@drawable/ic_android"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/profile"
+                android:title="@string/menu_profile"
+                android:icon="@drawable/ic_android"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/download"
+                android:title="@string/menu_download"
+                android:icon="@drawable/baseline_download_24"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/setting"
+                android:title="@string/menu_setting"
+                android:icon="@drawable/ic_setting"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/exit"
+                android:title="@string/menu_exit"
+                android:icon="@drawable/ic_exit"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
